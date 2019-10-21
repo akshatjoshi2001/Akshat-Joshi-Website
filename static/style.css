@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300&display=swap');
+
+.header
+{
+	font-family: 'Quicksand';
+	background-color:#fff;
+	color:#05a124;
+	padding:40px;
+}
+.guess
+{
+	text-align:center;
+	font-family: 'Quicksand';
+	padding:100px;
+}
+a
+{
+	padding:40px;
+	font-family: 'Segoe UI';
+	text-align:center;
+	color:#1abc9c;
+
+}
+
+
+
