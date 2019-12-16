@@ -12,7 +12,7 @@ $(".header").animate({visibility:"visible"},"slow");
 
 			  $('.guess').animate({visibility:"visible"},"slow");
 
-		  $('.guess').html("<h1>"+msg[count]+"</h1>");
+		  $('.guess').html("<center><h1>"+msg[count]+"</h1></center>");
     
     $('.guess').animate({visibility:"hidden"},"slow");
 
