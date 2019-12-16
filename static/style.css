@@ -5,7 +5,8 @@
 	font-family: 'Quicksand';
 	background-color:#fff;
 	color:#05a124;
-	padding:40px;
+	padding:10px;
+	height: 20vh;
 }
 .guess
 {
@@ -21,6 +22,16 @@ a
 	color:#1abc9c;
 
 }
-
-
+.logo
+{
+	height:200%;
+	width:30%;
+	padding:40px;
+	
+}
+img{
+	
+	max-height:100vh;
+	display: block; /* remove extra space below image */
+}
 

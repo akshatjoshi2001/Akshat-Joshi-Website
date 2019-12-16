@@ -3,7 +3,7 @@ $(document).ready(function() {
 $(".header").animate({visibility:"visible"},"slow");
 
 	count = 0;
-	var msg = ["Developer.","Percussionist.","IITian.","Revealing this December."];
+	var msg = ["Developer.","Percussionist.","IITian.","Revealing this January."];
   var id = setInterval(function() 
 	  {
 		  if(count < msg.length)
