@@ -29,4 +29,29 @@ img{
 	max-height:100vh;
 	display: block; /* remove extra space below image */
 }
-
+#dev
+{
+	display:block;
+	text-decoration:none;
+	font-family:'Quicksand';
+	color:#000;
+	border:2px solid #000;
+	border-radius:20px;
+	padding:20px;
+	background-color:#fff;
+	text-align:center;
+	
+}
+#dev:hover
+{
+	display:block;
+	text-decoration:none;
+	font-family:'Quicksand';
+	color:#fff;
+	background-color:#000;
+	border:2px solid #000;
+	border-radius:20px;
+	padding:20px;
+	text-align:center;
+	
+}
