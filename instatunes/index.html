@@ -15,9 +15,21 @@
     <link rel="stylesheet" href="static/style.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.js"></script>
 	<script src="script.js"></script>
+		<script>
+			function play()
+{
+    var query = document.getElementById("q");
+    q = query.value;
+    document.getElementById("audio").innerHTML="<br /><b><span style='color:blue;font-size:20px;'>Getting your song.  :)</span><br /><img src='loading.gif' height='200px' width='300px' alt='Loading...' /> <br /> "
+    axios.get("https://itpreprocess.herokuapp.com/music.php?q="+q).then((resp)=>{
+        document.getElementById("audio").innerHTML="<br /><br />Here it is. <b style='color:blue;'>Enjoy!</b><br /><br />" + resp.data;
+    });
+
+}
+		</script>
 
 
-S
+
     </head>
     
     <body style="background:#4287f5;">
